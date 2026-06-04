@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohini Bandlamudi | Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f9ff;
+}
+
+header{
+background:#0d6efd;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:white;
+font-size:24px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 8%;
+flex-wrap:wrap;
+}
+
+.content{
+max-width:600px;
+}
+
+.content h1{
+font-size:48px;
+color:#0d6efd;
+}
+
+.content h3{
+margin:10px 0;
+font-size:28px;
+}
+
+.content p{
+margin:20px 0;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#0d6efd;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-right:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#084298;
+}
+
+.profile img{
+width:280px;
+height:280px;
+border-radius:50%;
+border:5px solid #0d6efd;
+object-fit:cover;
+}
+
+.section{
+padding:60px 8%;
+}
+
+.title{
+text-align:center;
+font-size:35px;
+color:#0d6efd;
+margin-bottom:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card i{
+font-size:40px;
+color:#0d6efd;
+margin-bottom:15px;
+}
+
+.card a{
+text-decoration:none;
+color:#0d6efd;
+font-weight:bold;
+}
+
+footer{
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Portfolio</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="content">
+<h1>Rohini bandlamudi</h1>
+
+<h3>Aspiring CSE undergraduate</h3>
+
+<p>
+Motivated AIML undergraduate with strong interest in
+Machine Learning, Data Science and Problem Solving.
+Passionate about building AI solutions using Python
+and applying technology to solve real-world problems.
+</p>
+
+<a href="resume.pdf" download class="btn">
+Download Resume
+</a>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+
+</div>
+<div class="profile">
+<img src="ooo.jpeg" alt="Profile Photo">
+</div>
+
+</section>
+
+<section class="section" id="skills">
+
+<h2 class="title">Technical Skills</h2>
+
+<div class="cards">
+
+<div class="card">
+<a href="https://www.w3schools.com/python/" target="_blank">
+<i class="fab fa-python"></i>
+<h3>Python</h3>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://www.w3schools.com/html/" target="_blank">
+<i class="fab fa-html5"></i>
+<h3>HTML</h3>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://www.w3schools.com/python/pandas/default.asp" target="_blank"
+<i class="fas fa-chart-line"></i>
+<h3>Pandas</h3>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://www.w3schools.com/sql/" target="_blank">
+    <i class="fas fa-database"></i>
+    <h3>DBMS</h3>
+  </a>
+</div>
+
+<div class="card">
+  <a href="https://www.w3schools.com/ai/default.asp" target="_blank">
+    
+<i class="fas fa-brain"></i>
+<h3>Machine Learning</h3>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://www.w3schools.com/ai/default.asp" target="_blank">
+<i class="fas fa-robot"></i>
+<h3>Artificial Intelligence</h3>
+</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3> Gender Detection using AI</h3>
+<p>
+A machine learning model to classify gender based on facial features using supervised learning techniques  .
+</p>
+</div>
+
+<div class="card">
+<h3>Smart Watering System for Irrigation</h3>
+<p>
+Implemented real-time monitoring of soil conditions, enabling dynamic control of water flow.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="card">
+
+<p>
+<i class="fas fa-envelope"></i><br><br>
+<a href="mailto:bandlamudirohini449@gmail.com">
+bandlamudirohini449@gmail.com
+</a>
+</p>
+
+<br>
+
+<p>
+<i class="fas fa-phone"></i><br><br>
+<a href="tel:+918121596528">
+8121596528
+</a>
+</p>
+
+<br>
+
+<p>
+<i class="fab fa-linkedin"></i><br><br>
+<a href="https://www.linkedin.com/in/rohini-bandlamudi-154538311/" target="_blank">
+LinkedIn Profile
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2027 Rohini Bandlamudi | Portfolio</p>
+</footer>
+
+</body>
+</html>
